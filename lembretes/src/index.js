@@ -3,11 +3,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import LembreteEntrada from './LembreteEntrada'
 import TarefaLista from './LembreteLista'
+import "./personalizacao.css";
 
 const App = () => {
     return (
         // container principal
-        <div className="container border rounded mt-2" style={{ backgroundColor: 'palegreen' }}>
+        <div className="container border rounded mt-2" style={{ backgroundColor: 'palegreen', borderRadius: "10px" }}>
             {/* linha para o título */}
             <div className="row border-bottom m-2">
                 <h1 className="display-5 text-center"><TarefaLista /></h1>
