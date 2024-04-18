@@ -1,3 +1,5 @@
+/* esse arquivo não é mais necessário, pois o código foi transferido para o arquivo LembreteEntrada.js */
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
