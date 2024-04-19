@@ -1,3 +1,14 @@
 .App {
     border-radius: 10px;
 }
+
+.botao-adicionar {
+    font-size: 16px;
+}
+
+/* Estilo para o botão de adicionar quando passar o mouse por cima */
+.botao-adicionar:hover {
+    color: #fff; 
+    background-color: #5cb85c; 
+    border-color: #4cae4c; 
+}
